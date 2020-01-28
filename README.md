@@ -301,3 +301,13 @@ BSD 3-Clause License
 * Journalists with stories that help us make sense of what goes around us
 
 [mapbox.com/solutions](https://www.mapbox.com/solutions)
+
+
+
+//// Useful links
+
+https://blog.mapbox.com/create-location-based-stories-with-minimal-code-fc8c5da60d96
+https://demos.mapbox.com/scrollytelling/
+https://studio.mapbox.com/styles/properati-latam/ck5pjoakv3kac1ik3g7xyga48/edit/#12/4.64025/-74.06132
+https://blog.mapbox.com/style-components-in-studio-77cc2f98815b
+https://docs.mapbox.com/studio-manual/overview/
