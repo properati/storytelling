@@ -59,7 +59,7 @@ var config = {
             id: 'universidades',
             title: 'Las universidades',
             image: './images/university.jpg',
-            description: 'En Bogotá existen 535 establecimientos universitarios, emplazados en distintas zonas de la ciudad.',
+            description: 'En Bogotá existen 151 establecimientos universitarios, emplazados en distintas zonas de la ciudad.',
             location: {
                center: [-74.19341, 4.68313],
                zoom: 10.86,
@@ -201,15 +201,37 @@ var config = {
 
         },
         {
-            id: 'la-catedral',
-            title: 'La Catedral',
+            id: 'porciuncula',
+            title: 'Porciúncula',
             //image: './images/bar.jpg',
-            description: 'La Catedral es un barrio ideal para quienes estén estudiando en Bogotá. <br /> \b Establecimientos educativos: 6 <br />  \b Bares & Restaurantes: 15 <br /> \b Precio promedio del arriendo: $1,533,700 <br /> \b Promedio de dormitorios por apartamento: 1.2 ',
+            description: 'Porciúntuca es un barrio ideal para quienes estén estudiando en Bogotá. <br /> \b Establecimientos educativos: 8 <br />  \b Bares & Restaurantes: 11 <br /> \b Precio promedio del arriendo: $2,046,536 <br /> \b Promedio de dormitorios por apartamento: 1.4 ',
              location: {
-             center: [-74.07329, 4.59965],
-             zoom: 17.13,
-             pitch: 3.50,
-             bearing: 20.80
+             center: [-74.05654, 4.65831],
+             zoom: 15.13,
+             pitch: 0.50,
+             bearing: 29.60
+                           },
+            onChapterEnter: [
+             {
+                     layer: 'mejores-barrios-estudiantes-10',
+                     opacity: 0.2
+            }
+                           ],
+            onChapterExit: [
+            
+                 ]
+
+        },
+        {
+             id: 'quinta-camacho',
+            title: 'Quinta Camacho',
+            //image: './images/bar.jpg',
+            description: ' \b Precio promedio del arriendo: $1,780,350. <br /> \b Establecimientos educativos: 16 <br /> \b Bares & Restaurantes: 13 <br /> \b Promedio de dormitorios por apartamento: 1.6 ',
+            location: {
+            center: [-74.06018, 4.65338],
+            zoom: 15.13,
+            pitch: 0.50,
+            bearing: 29.60
                            },
             onChapterEnter: [
              {
@@ -228,10 +250,10 @@ var config = {
             //image: './images/bar.jpg',
             description: ' \b Precio promedio del arriendo: $1,483,550 <br /> \b Establecimientos educativos: 6 <br /> \b Bares & Restaurantes: 5 <br /> \b Promedio de dormitorios por apartamento: 1.2 ',
             location: {
-             center: [-74.06561, 4.62967],
-             zoom: 17.13,
-             pitch: 3.50,
-             bearing: 20.80
+             center: [-74.06936, 4.62749],
+             zoom: 15.13,
+             pitch: 0.50,
+             bearing: 29.60
                            },
             onChapterEnter: [
              {
@@ -245,15 +267,15 @@ var config = {
 
         },
         {
-            id: 'chico-norte',
-            title: 'Chicó Norte',
+            id: 'san-martin',
+            title: 'San Martín',
             //image: './images/bar.jpg',
-            description: ' \b Precio promedio del arriendo: $2,125,500. <br /> \b Establecimientos educativos: 1 <br /> \b Bares & Restaurantes: 28 <br /> \b Promedio de dormitorios por apartamento: 1.1 ',
+            description: ' \b Precio promedio del arriendo: $2,149,884 <br /> \b Establecimientos educativos: 2 <br /> \b Bares & Restaurantes: 16 <br /> \b Promedio de dormitorios por apartamento: 1.6 ',
             location: {
-             center: [-74.04667, 4.67725],
-             zoom: 16.13,
-             pitch: 3.50,
-             bearing: 20.80
+             center: [-74.06717, 4.61664],
+             zoom: 15.13,
+             pitch: 0.50,
+             bearing: 29.60
                            },
             onChapterEnter: [
              {
@@ -267,37 +289,15 @@ var config = {
 
         },
         {
-            id: 'quinta-camacho',
-            title: 'Quinta Camacho',
+            id: 'la-catedral',
+            title: 'La Catedral',
             //image: './images/bar.jpg',
-            description: ' \b Precio promedio del arriendo: $1,780,350. <br /> \b Establecimientos educativos: 16 <br /> \b Bares & Restaurantes: 13 <br /> \b Promedio de dormitorios por apartamento: 1.6 ',
-            location: {
-             center: [-74.05873, 4.65408],
-             zoom: 17.13,
-             pitch: 3.50,
-             bearing: 20.80
-                           },
-            onChapterEnter: [
-             {
-                     layer: 'mejores-barrios-estudiantes-10',
-                     opacity: 0.2
-            }
-                           ],
-            onChapterExit: [
-            
-                 ]
-
-        },
-        {
-            id: 'espartillal',
-            title: 'Espartillal',
-            //image: './images/bar.jpg',
-            description: ' \b Precio promedio del arriendo: $1,988,900. <br /> \b Establecimientos educativos: 6 <br /> \b Bares & Restaurantes: 13 <br /> \b Promedio de dormitorios por apartamento: 1.7 ',
-            location: {
-             center: [-74.05399, 4.66321],
-             zoom: 16.13,
-             pitch: 3.50,
-             bearing: 20.80
+            description: '\b Establecimientos educativos: 6 <br />  \b Bares & Restaurantes: 15 <br /> \b Precio promedio del arriendo: $1,533,700 <br /> \b Promedio de dormitorios por apartamento: 1.2 ',
+             location: {
+             center: [-74.07259, 4.59708],
+             zoom: 15.13,
+             pitch: 0.50,
+             bearing: 29.60
                            },
             onChapterEnter: [
              {
